@@ -2,6 +2,7 @@ const express=require('express');
 const bodyparser=require('body-parser');
 
 const {PORT}=require('./config/Serverconfig');
+const EmailService = require('./services/email-service');
 
 
 const setupAndStartServer=()=>{
